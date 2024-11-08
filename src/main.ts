@@ -8,3 +8,4 @@ async function bootstrap() {
   await app.listen(configSerivce.get<number>('app.PORT'),()=>console.log(`server is running on port: ${configSerivce.get<number>('app.PORT')}`));
 }
 bootstrap();
+    
